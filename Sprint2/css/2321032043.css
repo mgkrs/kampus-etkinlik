@@ -1,4 +1,3 @@
-/* Ad Soyad - 2321032043 */
 :root {
   --no: 2321032043;
   --ton: mod(var(--no), 360);
@@ -23,7 +22,6 @@ body {
   padding: var(--bosluk-m);
 }
 
-/* Ortak Başlık ve Menü */
 header {
   background-color: var(--renk-ana);
   color: white;
@@ -48,10 +46,9 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Kartlar ve Grid Yapısı (Mobil Öncelikli) */
 .etkinlik-grid {
   display: grid;
-  grid-template-columns: 1fr; /* Telefonda tek sütun */
+  grid-template-columns: 1fr;
   gap: var(--bosluk-m);
   margin-bottom: var(--bosluk-m);
 }
@@ -77,10 +74,9 @@ article.kart .detay-link {
   margin-top: 0.8rem;
 }
 
-/* Detay Sayfası */
 .detay-grid {
   display: grid;
-  grid-template-columns: 1fr; /* Telefonda alt alta */
+  grid-template-columns: 1fr;
   gap: var(--bosluk-m);
   background: white;
   padding: var(--bosluk-m);
@@ -106,7 +102,6 @@ dt {
   color: #555;
 }
 
-/* Formlar */
 form {
   background: white;
   padding: var(--bosluk-m);
@@ -118,7 +113,7 @@ form {
 }
 
 label {
-  display: block; /* Label üstte */
+  display: block;
   margin-bottom: 0.3rem;
   font-weight: bold;
 }
@@ -131,7 +126,6 @@ input, select, textarea {
   font-family: var(--font);
 }
 
-/* Hatalı/Boş alan kırmızı */
 input:invalid, select:invalid, textarea:invalid {
   border-color: #dc3545;
 }
@@ -159,7 +153,6 @@ footer {
   color: #666;
 }
 
-/* Geniş Ekran (Masaüstü) Medya Sorguları */
 @media (min-width: 768px) {
   .etkinlik-grid.ikili {
     grid-template-columns: repeat(2, 1fr);
