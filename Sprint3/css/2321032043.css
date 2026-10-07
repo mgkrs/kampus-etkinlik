@@ -167,3 +167,47 @@ footer {
     width: auto;
   }
 }
+
+.filtre {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  background: white;
+  padding: var(--bosluk-m);
+  border-radius: var(--kose);
+  margin-bottom: 1rem;
+}
+@media (min-width: 768px) {
+  .filtre {
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
+  }
+}
+#sonuc {
+  font-size: 0.9rem;
+  color: var(--renk-ana);
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+input[aria-invalid="true"], select[aria-invalid="true"], textarea[aria-invalid="true"] {
+  border-color: #dc3545;
+  background-color: #fff8f8;
+}
+.hata-metni {
+  color: #dc3545;
+  font-size: 0.8rem;
+  display: block;
+  margin-top: 0.2rem;
+}
+
+.detay-grid figure {
+  margin: 0;
+}
+
+.detay-grid img {
+  max-height: 400px;
+  width: 100%;
+  object-fit: contain;
+  background-color: #f8f9fa;
+}
