@@ -18,9 +18,12 @@ if (!event) {
     `;
 } else {
     document.title = event.title;
+    
+    const gorsel = event.id === "event-1" ? "afis.jpg" : "sdu.png";
+
     container.innerHTML = `
         <figure>
-            <img src="afis.jpg" alt="${event.title} afişi">
+            <img src="${gorsel}" alt="${event.title} görseli">
         </figure>
         <div>
             <dl>
