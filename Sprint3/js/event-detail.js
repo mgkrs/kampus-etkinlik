@@ -26,6 +26,7 @@ if (!event) {
             <img src="${gorsel}" alt="${event.title} görseli">
         </figure>
         <div>
+            <h1>${event.title}</h1>
             <dl>
                 <dt>Tarih</dt>
                 <dd>${formatDate(event.date)}, ${event.time}</dd>
