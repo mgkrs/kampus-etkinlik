@@ -1,6 +1,8 @@
 :root {
   --no: 2321032043;
-  --ton: mod(var(--no), 360);
+  /* Tarayıcıların mod() fonksiyonunda büyük sayılarla yaşadığı hesaplama hatasını 
+     önlemek için 2321032043 % 360 işleminin sonucu olan 83'ü doğrudan yazıyoruz: */
+  --ton: 83;
   --renk-ana: hsl(var(--ton) 65% 38%);
   --renk-zemin: hsl(var(--ton) 30% 97%);
   --font: "Trebuchet MS", sans-serif;

@@ -111,7 +111,7 @@ export default function App() {
                   value={selectedCategory}
                   onChange={(e) => setSelectedCategory(e.target.value as Category | "")}
                 >
-                  <option value="">Tümü &blacktriangledown;</option>
+                  <option value="">Tümü ▼</option>
                   {categories.map(c => <option key={c} value={c}>{c}</option>)}
                 </select>
               </div>
@@ -183,7 +183,7 @@ export default function App() {
                   <div className="form-grup">
                     <label htmlFor="category">Kategori *</label>
                     <select id="category" defaultValue={page === "update" ? selectedEvent?.category : ""}>
-                      <option value="">Seçiniz &blacktriangledown;</option>
+                      <option value="">Seçiniz ▼</option>
                       <option value="Seminer">Seminer</option>
                       <option value="Atölye">Atölye</option>
                       <option value="Söyleşi">Söyleşi</option>
