@@ -18,10 +18,11 @@ export default function EventForm({ onSubmit, event, mode }: EventFormProps) {
         <div className="form-grup">
           <label htmlFor="category">Kategori *</label>
           <select id="category" defaultValue={mode === "update" ? event?.category : ""}>
-            <option value="">Seçiniz ▼</option>
+            <option value="">Seçiniz</option>
             <option value="Seminer">Seminer</option>
             <option value="Atölye">Atölye</option>
             <option value="Söyleşi">Söyleşi</option>
+            <option value="Yarışma">Yarışma</option>
           </select>
         </div>
         <div className="form-grup">

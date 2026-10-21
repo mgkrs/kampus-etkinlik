@@ -66,5 +66,16 @@ export const events: CampusEvent[] = [
     capacity: 80,
     description: "Genç girişimcilerle tanışma ve soru-cevap.",
     image: "sdu.png"
+  },
+  {
+    id: "event-7",
+    title: "Bilgi Yarışması",
+    category: "Yarışma",
+    date: "2027-01-24",
+    time: "12:30",
+    location: "A Blok Amfi 3",
+    capacity: 95,
+    description: "Takımların birbirini test ettiği bilgi yarışması.",
+    image: "sdu.png"
   }
 ];
