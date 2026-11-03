@@ -21,7 +21,7 @@ export const events: CampusEvent[] = [
     location: "Bilecik Şeyh Edebali Üniversitesi Bilgisayar Lab",
     capacity: 40,
     description: "Uygulamalı Web 3.0, Blockchain temelleri ve Akıllı Kontrat geliştirme atölyesi.",
-    image: "afis.jpg"
+    image: "sdu.png"
   },
   {
     id: "event-3",
@@ -43,7 +43,7 @@ export const events: CampusEvent[] = [
     location: "Türkiye Geneli (Online Katılım)",
     capacity: null,
     description: "48 saat sürecek kesintisiz hackathon heyecanı. Takımını kur, projeni geliştir, büyük ödülü kazan!",
-    image: "afis.jpg"
+    image: "sdu.png"
   },
   {
     id: "event-5",
@@ -76,7 +76,7 @@ export const events: CampusEvent[] = [
     location: "SDÜ Bilgisayar Mühendisliği Lab 1",
     capacity: 30,
     description: "Sıfırdan React öğreniyoruz. Kendi kişisel web siteni geliştirmek için bilgisayarını al ve gel.",
-    image: "afis.jpg"
+    image: "sdu.png"
   },
   {
     id: "event-8",
@@ -87,6 +87,5 @@ export const events: CampusEvent[] = [
     location: "Bilecik Teknopark",
     capacity: 100,
     description: "En iyi Indie (Bağımsız) oyunu sen yap, jüriyi etkile ve yatırımcılarla buluşma şansı yakala!",
-    image: "afis.jpg"
-  }
+    image: "sdu.png"
 ];
