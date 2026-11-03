@@ -1,7 +1,6 @@
 :root {
   --no: 2321032043;
-  /* Tarayıcıların mod() fonksiyonunda büyük sayılarla yaşadığı hesaplama hatasını 
-     önlemek için 2321032043 % 360 işleminin sonucu olan 83'ü doğrudan yazıyoruz: */
+
   --ton: 83;
   --renk-ana: hsl(var(--ton) 65% 38%);
   --renk-zemin: hsl(var(--ton) 30% 97%);
@@ -65,4 +64,18 @@ footer { text-align: center; margin-top: 2rem; font-size: 0.85rem; color: #666; 
   .detay-grid { grid-template-columns: 1fr 1fr; }
   .filtre { grid-template-columns: 1fr 1fr; align-items: end; }
   button { width: auto; }
+}
+
+.tablo { width: 100%; border-collapse: collapse; margin-bottom: 1rem; }
+.tablo th { background: var(--renk-ana); color: #fff; padding: 0.8rem; text-align: left; }
+.tablo td { padding: 0.8rem; border-bottom: 1px solid #ddd; }
+.islemler { display: flex; gap: 0.5rem; }
+.buton-sil { background: #dc3545; }
+
+@media (max-width: 699px) {
+  .tablo thead { display: none; }
+  .tablo tr { display: block; border: 1px solid #ddd; border-radius: var(--kose); margin-bottom: 1rem; padding: 1rem; background: white; }
+  .tablo td { display: block; border: none; padding: 0.3rem 0; }
+  .tablo td.islemler { display: flex; margin-top: 0.5rem; }
+  .tablo td[data-baslik]::before { content: attr(data-baslik); font-weight: 700; margin-right: 0.5rem; }
 }
