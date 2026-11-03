@@ -3,12 +3,14 @@
 **Canlı Vercel Adresi:** [muhammetgazikurus-frontend.vercel.app](https://muhammetgazikurus-frontend.vercel.app)
 
 ## Kurulum
-```bash
+```
 cd frontend
 npm install
 npm run dev
+```
 
 ## Route Listesi (10 Adet)
+```
 / : Ana Sayfa (HomePage)
 /events : Tüm Etkinlikler (EventsPage)
 /events/:id : Etkinlik Detayı (EventDetailPage)
@@ -19,3 +21,4 @@ npm run dev
 /register : Kayıt Ol (RegisterPage)
 /forgot-password : Şifremi Unuttum (ForgotPasswordPage)
 * : Sayfa Bulunamadı (NotFoundPage)
+
