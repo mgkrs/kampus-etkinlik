@@ -88,4 +88,5 @@ export const events: CampusEvent[] = [
     capacity: 100,
     description: "En iyi Indie (Bağımsız) oyunu sen yap, jüriyi etkile ve yatırımcılarla buluşma şansı yakala!",
     image: "sdu.png"
+  }
 ];
