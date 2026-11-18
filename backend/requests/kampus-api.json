@@ -38,11 +38,11 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/events/event-2",
+					"raw": "http://localhost:3000/events/6afd8bad0ece7b2d312a1dfa",
 					"protocol": "http",
 					"host": ["localhost"],
 					"port": "3000",
-					"path": ["events", "event-2"]
+					"path": ["events", "6afd8bad0ece7b2d312a1dfa"]
 				}
 			}
 		},
@@ -67,7 +67,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"title\": \"Git Atölyesi\",\n    \"category\": \"Atölye\",\n    \"date\": \"2026-12-01\",\n    \"capacity\": 30\n}",
+					"raw": "{\n  \"title\": \"Git Atölyesi\",\n  \"category\": \"Atölye\",\n  \"date\": \"2026-12-01\",\n  \"time\": \"14:00\",\n  \"location\": \"Bilgisayar Laboratuvarı 1\",\n  \"capacity\": 30,\n  \"description\": \"Git ve GitHub ile ilk adımlar.\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -90,7 +90,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"title\": \"Sadece Başlık\"\n}",
+					"raw": "{\n  \"title\": \"Sadece Başlık\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
